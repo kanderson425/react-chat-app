@@ -69,14 +69,30 @@ html, body {
 
 .rooms-list h3 {
     margin: 5px 0;
-    color: var(--secondar-color);
+    color: var(--secondary-color);
 }
 
 .rooms-list .room a {
     color: var(--secondary-text-color);
     font-weight: 600;
-    text-decoration: : none;
+    text-decoration: none;
 }
+
+.rooms-list .room.active a {
+    color: var(--secondary-color);
+}
+
+.new-room-form {
+    padding: 0 5px;
+    background: var(--secondary-color);
+    color: var(--main-text-color);
+}
+
+.new-room-form form {
+    height: 100%;
+    display: flex;
+}
+
 
 
 
