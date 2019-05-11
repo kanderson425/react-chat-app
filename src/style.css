@@ -30,7 +30,7 @@ html, body {
     "r m m m m m"
     "r m m m m m"
     "r m m m m m"
-    "n f f f f f";
+    "n s s s s s";
 }
 
 .new-room-form {
@@ -44,4 +44,39 @@ html, body {
 .message-list {
     grid-area: m;
 }
+
+.send-message-form {
+    grid-area: s;
+}
+/* Rest of CS */
+.rooms-list {
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: var(--main-color);
+    overflow: scroll;
+    height: 100%;
+}
+
+.rooms-list ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: scroll;
+}
+
+.rooms-list li {
+    margin: 10px 0;
+}
+
+.rooms-list h3 {
+    margin: 5px 0;
+    color: var(--secondar-color);
+}
+
+.rooms-list .room a {
+    color: var(--secondary-text-color);
+    font-weight: 600;
+    text-decoration: : none;
+}
+
+
 
