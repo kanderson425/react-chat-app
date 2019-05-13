@@ -13,8 +13,16 @@ class App extends React.Component {
   constructor() {
     super() 
     this.state = {
-      messages: [],
+      currentRoomId: null,
+      joinableRooms: [],
+      joinedRooms: [],
+      messages: []
     }
+
+    // this.subscribeToRoom = this.subscribeToRoom.bind(this)
+    // this.sendMessage = this.sendMessage.bind(this)
+    // this.subscribeToRoom = this.subscribeToRoom.bind(this)
+
   }
 
   componentDidMount() {
@@ -45,11 +53,11 @@ class App extends React.Component {
     console.log('this.state.message: ', this.state.messages);
     return (
       <div className="app">
-        <RoomList />
+        <RoomList rooms={[...this.state.joinableRooms, ...this.state.joinedRooms]} />
         <MessageList  
           messages={this.state.messages}
         />
-        <SendMessageForm />
+        <SendMessageForm sendMessage={this.sendMessage} />
         <NewRoomForm />
       </div>
     );

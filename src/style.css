@@ -49,7 +49,7 @@ html, body {
     grid-area: s;
 }
 /* Rest of css */
-.rooms-list {
+.room-list {
     box-sizing: border-box;
     padding: 10px;
     background-color: var(--main-color);
@@ -57,28 +57,28 @@ html, body {
     height: 100%;
 }
 
-.rooms-list ul {
+.room-list ul {
     list-style-type: none;
     padding: 0;
     overflow: scroll;
 }
 
-.rooms-list li {
+.room-list li {
     margin: 10px 0;
 }
 
-.rooms-list h3 {
+.room-list h3 {
     margin: 5px 0;
     color: var(--secondary-color);
 }
 
-.rooms-list .room a {
+.room-list .room a {
     color: var(--secondary-text-color);
     font-weight: 600;
     text-decoration: none;
 }
 
-.rooms-list .room.active a {
+.room-list .room.active a {
     color: var(--secondary-color);
 }
 

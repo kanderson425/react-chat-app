@@ -1,4 +1,5 @@
 import React from 'react';
+import '../style.css';
 
 class SendMessageForm extends React.Component {
 
