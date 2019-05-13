@@ -48,7 +48,7 @@ html, body {
 .send-message-form {
     grid-area: s;
 }
-/* Rest of CS */
+/* Rest of css */
 .rooms-list {
     box-sizing: border-box;
     padding: 10px;

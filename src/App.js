@@ -1,6 +1,7 @@
 import React from 'react';
 import Chatkit from '@pusher/chatkit-client';
 import './App.css';
+import './style.css';
 import MessageList from './components/MessageList';
 import SendMessageForm from './components/SendMessageForm';
 import RoomList from './components/RoomList';
