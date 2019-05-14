@@ -102,5 +102,21 @@ html, body {
     font-size: 2rem;
 }
 
+.message-username {
+    margin: 15px;
+    color: var(--secondary-text-color);
+    font-weight: 400;
+
+}
+
+.message-text {
+    color: var(--secondary-color);
+    background-color: var(--main-color);
+    border-radius: .4em;
+    display: inline;
+    margin: 20px;
+    padding: 8px;
+
+}
 
 
